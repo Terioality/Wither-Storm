@@ -5,3 +5,6 @@ while true do
    game.Workspace.CurrentRooms[CurrentRoom]:Destroy()
    CurrentRoom = CurrentRoom + 1
 end
+while task.wait(0.1) do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20   
+end
